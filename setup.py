@@ -4,14 +4,14 @@ except ImportError:
     from distutils.core import setup
 
 setup(
-    name='ethjsonrpc',
-    version='0.3.0',
-    description='Ethereum JSON-RPC client',
+    name='pyethmobi',
+    version='0.1',
+    description='ethereum JSON-RPC client',
     long_description=open('README.rst').read(),
-    author='ConsenSys',
-    author_email='info@consensys.net',
-    url='https://github.com/ConsenSys/ethjsonrpc',
-    packages=['ethjsonrpc'],
+    author='balakrishnan',
+    author_email='krishnasmartt@gmail.com',
+    url='https://github.com/balakrishnan2/pyethmobi',
+    packages=['pyethmobi'],
     license='Unlicense',
     classifiers=[
         'Development Status :: 4 - Beta',
