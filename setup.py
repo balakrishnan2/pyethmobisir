@@ -4,14 +4,14 @@ except ImportError:
     from distutils.core import setup
 
 setup(
-    name='pyethmobi',
+    name='pyethmobisir',
     version='0.1',
     description='ethereum JSON-RPC client',
     long_description=open('README.rst').read(),
     author='balakrishnan',
     author_email='krishnasmartt@gmail.com',
-    url='https://github.com/balakrishnan2/pyethmobi',
-    packages=['pyethmobi'],
+    url='https://github.com/balakrishnan2/pyethmobisir',
+    packages=['pyethmobisir'],
     license='Unlicense',
     classifiers=[
         'Development Status :: 4 - Beta',

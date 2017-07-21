@@ -1,4 +1,4 @@
-from pyethmobi import EthJsonRpc
+from pyethmobisir import EthJsonRpc
 
 methods = [
     'web3_clientVersion',

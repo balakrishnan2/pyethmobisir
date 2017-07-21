@@ -1,4 +1,4 @@
-from pyethmobi.constants import BLOCK_TAGS
+from pyethmobisir.constants import BLOCK_TAGS
 
 
 def hex_to_dec(x):

@@ -7,9 +7,9 @@ from requests.exceptions import ConnectionError as RequestsConnectionError
 from ethereum import utils
 from ethereum.abi import encode_abi, decode_abi
 
-from pyethmobi.constants import BLOCK_TAGS, BLOCK_TAG_LATEST
-from pyethmobi.utils import hex_to_dec, clean_hex, validate_block
-from pyethmobi.exceptions import (ConnectionError, BadStatusCodeError,
+from pyethmobisir.constants import BLOCK_TAGS, BLOCK_TAG_LATEST
+from pyethmobisir.utils import hex_to_dec, clean_hex, validate_block
+from pyethmobisir.exceptions import (ConnectionError, BadStatusCodeError,
                                    BadJsonError, BadResponseError)
 
 GETH_DEFAULT_RPC_PORT = 8545
