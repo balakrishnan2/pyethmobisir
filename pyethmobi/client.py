@@ -8,7 +8,7 @@ from ethereum import utils
 from ethereum.abi import encode_abi, decode_abi
 
 from pyethmobi.constants import BLOCK_TAGS, BLOCK_TAG_LATEST
-from pyehtmobi.utils import hex_to_dec, clean_hex, validate_block
+from pyethmobi.utils import hex_to_dec, clean_hex, validate_block
 from pyethmobi.exceptions import (ConnectionError, BadStatusCodeError,
                                    BadJsonError, BadResponseError)
 
